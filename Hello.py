@@ -40,7 +40,7 @@ def simple_classify(client, question_to_nurse_string: str, nurse_response_string
 
 def run():
     st.set_page_config(page_title="MedMastery", page_icon="🤪")
-    st.markdown("MedMaster-a training website for doctors and nurses")
+    st.markdown("MedMastery-a training website for doctors and nurses")
     st.write("""Using ChatGpt Sentiment Analysis""")
 
     password = st.text_input("Enter your OpenAI key: ")
