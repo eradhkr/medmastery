@@ -41,7 +41,7 @@ def simple_classify(client, question_to_nurse_string: str, nurse_response_string
 def run():
     st.set_page_config(page_title="MedMastery", page_icon="🤪")
     st.markdown("A training websiste for doctors and nurses")
-    st.write("""This is my first app with Q&A LLM!""")
+    st.write("""Using ChatGpt Sentiment Analysis""")
 
     password = st.text_input("Enter your OpenAI key: ")
     prompt = st.text_input("What is the sentiment of this statement?")
