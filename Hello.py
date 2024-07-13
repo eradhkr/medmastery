@@ -39,8 +39,8 @@ def simple_classify(client, question_to_nurse_string: str, nurse_response_string
   return response
 
 def run():
-    st.set_page_config(page_title="Ovee Dharwadkar's Sentiment Analysis Using OpenAI", page_icon="🤪")
-    st.markdown("# Ovee Dharwadkar's Sentiment Analysis Using OpenAI")
+    st.set_page_config(page_title="MedMastery", page_icon="🤪")
+    st.markdown("A training websiste for doctors and nurses")
     st.write("""This is my first app with Q&A LLM!""")
 
     password = st.text_input("Enter your OpenAI key: ")
